@@ -1,0 +1,86 @@
+body{
+    font-family: arial;
+  
+  }
+
+
+  
+  .container{
+    background-color:black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    background-color: white;
+    border-radius: 10px;
+    flex: 100px 0 270px; margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    
+  }
+  .container img{
+  
+    max-width: 100%;
+  }
+  .texts{
+    padding: 5px; margin-bottom:10px;
+  }
+  .texts button{
+    border: none; padding: 2px 15px;
+    background: #566270; color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+  }
+  .texts button:hover{
+    background: #E0E3DA; color: #566270; cursor: pointer;
+  }
+  
+  .img {
+    /* object-fit: cover; */
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .attacks{
+    display: flex;
+  }
+  .hp{
+    margin-left: auto;
+  }
+  .head{
+    text-align: center;
+    color: white;
+  }
+  /* .main{
+    background-color: aqua;
+  
+   
+  } */
+
+  .pagination {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    
+  }
+  
+  .pagination span {
+    color: rgb(255, 252, 252);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination span.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .pg{
+    text-align: center;
+  }
